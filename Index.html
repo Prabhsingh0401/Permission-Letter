@@ -1,0 +1,29 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <script>
+        function myFunction() {
+          var popup  = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+            
+        function NewTab() {
+                window.open("./Popup/index2.html",
+                        "", "width=900, height=900");
+            }
+        </script>
+    <title>
+        Anugoonj
+    </title>
+</head>
+
+    <body>
+        <img src="./minions-despicable-me.gif">
+        <h1>Will you go to Anugoonj with me ?</h1>
+        <button id="yes" class="yes" onclick="NewTab()" value="yes">Yes</button>
+        <button class="popup" onclick="myFunction()" value="yes">No
+            <span class="popuptext" id="myPopup">Firse try karo betaaa..</span>
+        </button>
+    </body>
+
+</html>
